@@ -38,8 +38,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
         android:onClick="Calcular"
         android:text="@string/btn_sumar"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,8 +49,8 @@
         android:id="@+id/lb_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
         android:text="@string/lb_result"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,4 +89,12 @@
             android:layout_height="wrap_content"
             android:text="@string/rb_div" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_siguiente"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="453dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

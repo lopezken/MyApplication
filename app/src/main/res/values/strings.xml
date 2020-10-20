@@ -8,5 +8,6 @@
     <string name="rb_multi">Multiplicar</string>
     <string name="rb_div">Dividir</string>
     <string name="btn_sumar">CALCULAR</string>
+    <string name="btn_siguiente">Siguiente</string>
 
 </resources>

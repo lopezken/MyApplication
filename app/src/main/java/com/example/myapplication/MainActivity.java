@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -60,11 +61,12 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     Toast.makeText(this, "El segundo Valor debe ser diferente de 0", Toast.LENGTH_LONG).show();
                 }
-        }
+            }
 
         }
-
-        //String result= suma + "";
-
+    }
+    public void Siguiente(View view){
+        Intent i = new Intent(this,web.class);
+        startActivity(i);
     }
 }
