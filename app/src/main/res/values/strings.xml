@@ -9,5 +9,7 @@
     <string name="rb_div">Dividir</string>
     <string name="btn_sumar">CALCULAR</string>
     <string name="btn_siguiente">Siguiente</string>
+    <string name="txt_url">Ingrese la Direccion web</string>
+    <string name="btn_atras">Ir al sitio</string>
 
 </resources>

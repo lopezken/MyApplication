@@ -49,7 +49,7 @@
         android:id="@+id/lb_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
         android:text="@string/lb_result"
         android:textSize="30sp"
@@ -94,7 +94,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="Siguiente"
         android:text="@string/btn_siguiente"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="453dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
