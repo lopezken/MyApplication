@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="lb_result">RESULTADO</string>
+    <string name="txtnum1">Primer Número</string>
+    <string name="txtnum2">Segundo Número</string>
+    <string name="rb_sumar">Sumar</string>
+    <string name="rb_restar">Restar</string>
+    <string name="rb_multi">Multiplicar</string>
+    <string name="rb_div">Dividir</string>
+    <string name="btn_sumar">CALCULAR</string>
+
+</resources>
